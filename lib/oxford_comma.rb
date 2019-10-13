@@ -1,3 +1,6 @@
 def oxford_comma(array)
-return array.join
+  nuguy=[]
+  nuguy=array.join( and )
+  
+return nuguy
 end
