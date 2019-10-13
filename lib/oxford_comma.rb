@@ -11,10 +11,11 @@ array.each do |action|
     x=0
     array.each do |ohyea|
       if x!=array.size
-      nuguy[x]=ohyea+", "
+      nuguy[x]=array[x]+", "
       else
-      nuguy[x]=", and "+ohyea
+      nuguy[x]=", and "+array[x]
       end
+      x=x+1
     end
     return nuguy.join
   end
