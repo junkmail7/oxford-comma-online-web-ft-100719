@@ -6,6 +6,14 @@ array.each do |action|
     return array.join(" and ")
   elsif array.size==3
   return array[0] + ", " + array[1] + ", and " + array[2]
+  else
+  nuguy=[]
+  x=0
+  array.each do |ohyea|
+  if array[x]!=array.last
+  nuguy[x]=ohyea+", "
+  else
+  nuguy[x]=", and "+ohyea
   end
 end
   
