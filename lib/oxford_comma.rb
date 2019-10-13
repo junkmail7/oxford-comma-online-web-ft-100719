@@ -6,7 +6,7 @@ array.each do |action|
     return array.join(" and ")
   elsif array.size==3
   return array[0].join+", "+array[1].join+", and"+array.join
-end
+  end
 end
   
 
