@@ -10,12 +10,13 @@ array.each do |action|
     nuguy=[]
     x=0
     array.each do |ohyea|
-    if array[x]!=array.last
-    nuguy[x]=ohyea+", "
-    else
-    nuguy[x]=", and "+ohyea
+      if array[x]!=array.last
+      nuguy[x]=ohyea+", "
+      else
+      nuguy[x]=", and "+ohyea
+      end
+      return nuguy.join
     end
-    return nuguy.join
   end
 end
 end
