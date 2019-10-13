@@ -4,7 +4,6 @@ array.each do |action|
     return array.join
   elsif array.size==2
     return array.join(" and ")
-  
   else
     nuguy=[]
     x=0
