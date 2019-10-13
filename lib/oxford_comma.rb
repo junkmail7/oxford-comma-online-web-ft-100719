@@ -13,7 +13,7 @@ array.each do |action|
       if array[x]!=array.last
       nuguy[x]=array[x]+", "
       else
-      nuguy[x]=", and "+array[x]
+      nuguy[x]="and "+array[x]
       end
       x=x+1
     end
