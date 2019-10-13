@@ -15,7 +15,6 @@ array.each do |action|
   else
   nuguy[x]=", and "+ohyea
   end
+  return nuguy.join
 end
-  
-
 end
