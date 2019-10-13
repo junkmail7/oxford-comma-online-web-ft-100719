@@ -10,7 +10,7 @@ array.each do |action|
     nuguy=[]
     x=0
     array.each do |ohyea|
-      if array[x]!=array.last
+      if x!=array.size
       nuguy[x]=ohyea+", "
       else
       nuguy[x]=", and "+ohyea
